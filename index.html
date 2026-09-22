@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Артем Зверев — Python / Fullstack / AI Automation developer. Проектирование и разработка систем от требований до production." />
-  <title>Артем Зверев — Fullstack & AI Automation</title>
+  <meta name="description" content="Артем Зверев — Python Fullstack Developer (Middle). Backend-first разработка на FastAPI, PostgreSQL, React/TypeScript, distributed systems, observability и прикладные LLM/RAG." />
+  <title>Артем Зверев — Python Fullstack Developer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
@@ -16,7 +16,7 @@
     <nav class="nav container" aria-label="Основная навигация">
       <a class="brand" href="#top" aria-label="На главную"><span>AZ</span><b>Артем Зверев</b></a>
       <div class="nav-links">
-        <a href="#cases">Проекты</a><a href="#fit">Почему я</a><a href="#process">Подход</a>
+        <a href="#cases">Проекты</a><a href="#experience">Опыт</a><a href="#skills">Стек</a><a href="#process">Подход</a>
       </div>
       <a class="button small ghost" href="https://github.com/AmL3ar" target="_blank" rel="noreferrer">GitHub ↗</a>
     </nav>
@@ -25,11 +25,12 @@
   <main id="top">
     <section class="hero container">
       <div class="hero-copy reveal">
-        <div class="eyebrow"><span class="status-dot"></span> Python • Fullstack • AI automation • system design</div>
-        <h1>Превращаю бизнес-задачу<br><span>в работающий сервис.</span></h1>
-        <p class="lead">Проектирую системы с нуля: разбираю требования, продумываю архитектуру, разрабатываю backend и пользовательские интерфейсы, подключаю интеграции, тестирую и довожу решение до production.</p>
+        <div class="eyebrow"><span class="status-dot"></span> Python Fullstack Developer · Middle · backend-first</div>
+        <h1>Превращаю бизнес-задачу<br><span>в production-систему.</span></h1>
+        <p class="lead">Веду задачи полного цикла: требования → архитектура и БД → API → React/TypeScript → тесты → CI/CD → deployment и observability. Основной фокус — FastAPI, PostgreSQL, concurrency, distributed systems и прикладные LLM/RAG.</p>
         <div class="hero-actions">
-          <a class="button" href="#cases">Смотреть кейсы</a>
+          <a class="button" href="#cases">Смотреть проекты</a>
+          <a class="button ghost" href="assets/Artem_Zverev_Resume.pdf" target="_blank" rel="noreferrer">Резюме PDF ↗</a>
           <a class="text-link" href="mailto:artem.zverev.03@bk.ru">artem.zverev.03@bk.ru ↗</a>
         </div>
         <div class="proof-row" aria-label="Ключевые результаты">
@@ -40,58 +41,78 @@
       </div>
       <aside class="hero-card reveal delay-1" aria-label="Профиль кандидата">
         <div class="profile-panel">
-          <div class="profile-label">FULL-CYCLE ENGINEERING</div>
+          <div class="profile-label">BACKEND-FIRST · FULL-CYCLE ENGINEERING</div>
           <div class="profile-grid">
-            <div><span>01</span><b>Backend</b><p>Python, FastAPI, C#, REST API, SQLAlchemy</p></div>
-            <div><span>02</span><b>Frontend</b><p>React, JavaScript, HTML/CSS, Android</p></div>
-            <div><span>03</span><b>Infrastructure</b><p>PostgreSQL, Redis, Kafka, Docker, CI/CD</p></div>
-            <div><span>04</span><b>AI / CV</b><p>PyTorch, TensorFlow, Keras, OpenCV</p></div>
+            <div><span>01</span><b>Backend</b><p>Python, FastAPI, Pydantic, asyncio, SQLAlchemy, Alembic</p></div>
+            <div><span>02</span><b>Frontend</b><p>TypeScript, React, TanStack Query, React Hook Form, Zod</p></div>
+            <div><span>03</span><b>Distributed</b><p>Kafka, RabbitMQ, Redis, workers, retries, Outbox, DLQ</p></div>
+            <div><span>04</span><b>AI / LLM</b><p>Structured Outputs, tool calling, embeddings, RAG, agents, MCP</p></div>
           </div>
         </div>
         <div class="terminal">
           <div class="terminal-head"><i></i><i></i><i></i><span>profile.py</span></div>
           <pre><code><span class="muted">class</span> <b>Engineer</b>:
     focus = [
-      <em>"automation"</em>,
-      <em>"fullstack"</em>,
-      <em>"AI integration"</em>
+      <em>"backend & data"</em>,
+      <em>"distributed systems"</em>,
+      <em>"LLM / RAG"</em>
     ]
-    delivery = <em>"idea → prod"</em>
-    stack = <em>"Python / React / API / SQL"</em></code></pre>
+    delivery = <em>"requirements → prod"</em>
+    stack = <em>"FastAPI / Postgres / React"</em></code></pre>
         </div>
       </aside>
     </section>
 
-    <section class="marquee-wrap" aria-label="Технологии"><div class="marquee">
-      <span>FastAPI</span><span>Python</span><span>React</span><span>JavaScript</span><span>PostgreSQL</span><span>Redis</span><span>Kafka</span><span>Docker</span><span>SQLAlchemy</span><span>pytest</span><span>REST API</span><span>Computer Vision</span><span>CI/CD</span><span>Linux</span>
-    </div></section>
+    <section class="marquee-wrap" aria-label="Технологии">
+      <div class="marquee-track">
+        <div class="marquee-group">
+          <span>Python</span><span>FastAPI</span><span>PostgreSQL</span><span>SQLAlchemy</span><span>Redis</span><span>Kafka</span><span>RabbitMQ</span><span>TypeScript</span><span>React</span><span>Docker</span><span>pytest</span><span>Playwright</span><span>Prometheus</span><span>Grafana</span><span>OpenTelemetry</span><span>pgvector</span><span>LLM / RAG</span>
+        </div>
+        <div class="marquee-group" aria-hidden="true">
+          <span>Python</span><span>FastAPI</span><span>PostgreSQL</span><span>SQLAlchemy</span><span>Redis</span><span>Kafka</span><span>RabbitMQ</span><span>TypeScript</span><span>React</span><span>Docker</span><span>pytest</span><span>Playwright</span><span>Prometheus</span><span>Grafana</span><span>OpenTelemetry</span><span>pgvector</span><span>LLM / RAG</span>
+        </div>
+      </div>
+    </section>
 
     <section id="fit" class="section container">
       <div class="section-head reveal">
         <div><p class="kicker">01 / ROLE FIT</p><h2>Не отдельный слой разработки, а целая система</h2></div>
-        <p>Моя основная специализация — backend, но я могу закрывать fullstack-контур задачи: от API, данных и интеграций до пользовательского интерфейса. AI-инструменты при этом рассматриваю как часть продукта, а не как отдельный «чат».</p>
+        <p>Основная специализация — backend, но я закрываю fullstack-контур задачи: данные, API, интеграции, интерфейс, тестирование, deployment и наблюдаемость. Архитектурный фокус — system design и trade-offs без усложнения ради технологий.</p>
       </div>
       <div class="fit-grid">
         <article class="fit-card reveal"><span>01</span><h3>Разобрать задачу</h3><p>Понять пользователя, бизнес-процесс, входные данные, ограничения, критерии успеха и точки автоматизации.</p></article>
-        <article class="fit-card reveal delay-1"><span>02</span><h3>Собрать vertical slice</h3><p>Backend, база данных, API, интеграции и интерфейс, которые вместе дают проверяемый пользовательский сценарий.</p></article>
-        <article class="fit-card reveal delay-2"><span>03</span><h3>Довести до production</h3><p>Тесты, Docker, CI/CD, наблюдаемость, обработка ошибок, безопасность и измеримые продуктовые метрики.</p></article>
+        <article class="fit-card reveal delay-1"><span>02</span><h3>Спроектировать систему</h3><p>Модель данных, API-контракты, service boundaries, concurrency, интеграции, безопасность и сценарии отказов.</p></article>
+        <article class="fit-card reveal delay-2"><span>03</span><h3>Довести до production</h3><p>Unit/integration/E2E-тесты, Docker, CI/CD, structured logging, metrics, tracing, performance и эксплуатация.</p></article>
       </div>
     </section>
 
     <section id="cases" class="section container">
-      <div class="section-head reveal"><div><p class="kicker">02 / CASES</p><h2>Проекты, где важен полный цикл</h2></div><p>Не список технологий, а контекст → решение → результат. Именно так я предпочитаю обсуждать инженерную работу.</p></div>
+      <div class="section-head reveal"><div><p class="kicker">02 / KEY PROJECTS</p><h2>Проекты с архитектурой, нагрузкой и эксплуатацией</h2></div><p>В проектах ниже важен не набор технологий сам по себе, а инженерные гарантии: конкурентный доступ, идемпотентность, устойчивость к сбоям, наблюдаемость и воспроизводимый deployment.</p></div>
 
-      <article class="case featured reveal">
-        <div class="case-meta"><span>РЖД · production</span><span>Python / FastAPI / Kafka / Redis / PostgreSQL</span></div>
+      <article class="case project-accent reveal">
+        <div class="case-meta"><span>OpenSlot · SaaS / mini-CRM</span><span>FastAPI / PostgreSQL / Redis / RabbitMQ / React / TypeScript</span></div>
         <div class="case-grid">
-          <div><h3>СКУД: события прохода в реальном времени</h3><p>Корпоративная система контроля доступа: права сотрудников, жизненный цикл пропусков, интеграция со считывателями и турникетами, обработка событий прохода.</p><ul><li>Бизнес-требования переведены в техническую архитектуру и REST API.</li><li>Асинхронный FastAPI + Kafka для событий между сервисами.</li><li>Redis снимает пиковую нагрузку с PostgreSQL в часы пересменки.</li><li>pytest, GitLab CI, Docker и часть инфраструктуры в Yandex Cloud.</li></ul></div>
-          <div class="metric-stack"><div><strong>&lt;50 ms</strong><span>проверка валидности</span></div><div><strong>+40%</strong><span>пропускная способность</span></div><div><strong>0</strong><span>заторы в часы пик после внедрения</span></div></div>
+          <div><h3>Онлайн-запись без double booking</h3><p>Multi-tenant продукт для организаций: сотрудники, услуги, клиенты, расписание, RBAC, публичная запись и календарь.</p><ul><li>Защита от double booking через транзакции, constraints, locking и concurrency tests.</li><li>Индексы и EXPLAIN ANALYZE для календарных запросов.</li><li>Background notifications, caching, rate limiting, CI/CD, HTTPS, logs, metrics/tracing и load tests.</li><li>AI Concierge: structured output, tools, RAG/pgvector и evals.</li></ul></div>
+          <div class="architecture-list"><div><span>01</span><b>Concurrency</b><p>Транзакционные гарантии для конкурентной записи.</p></div><div><span>02</span><b>Production</b><p>Наблюдаемость, нагрузочное тестирование и CI/CD.</p></div><div><span>03</span><b>Applied AI</b><p>RAG и tool calling встроены в продуктовый сценарий.</p></div></div>
         </div>
       </article>
 
       <div class="case-pair">
-        <article class="case reveal"><div class="case-meta"><span>Пневмостроймашина</span><span>C# / React / REST / SQL</span></div><h3>Складской учёт через QR и штрихкоды</h3><p>Самостоятельно спроектировал клиент-серверную систему на основе ТЗ: пользовательский интерфейс, захват камеры, валидация данных, серверное API и интеграция с корпоративной БД.</p><div class="mini-metric"><b>×3</b> быстрее идентификация и учёт единицы товара</div></article>
-        <article class="case reveal delay-1"><div class="case-meta"><span>UrFU · CV + embedded</span><span>Python / CV / Raspberry Pi</span></div><h3>Автоматический контроль въезда</h3><p>Модель распознаёт автомобильный номер, сверяет его с базой, а управляющий код на Raspberry Pi инициирует открытие шлагбаума для разрешённого автомобиля.</p><div class="mini-metric"><b>ML → action</b> модель встроена в физический процесс</div></article>
+        <article class="case reveal"><div class="case-meta"><span>HookRelay · distributed systems</span><span>FastAPI / PostgreSQL / RabbitMQ / Redis / React</span></div><h3>Надёжная доставка webhooks</h3><p>Платформа доставки событий с workers, retries/exponential backoff, idempotency, HMAC signatures, DLQ и manual replay.</p><ul><li>Transactional Outbox для устойчивости к частичным сбоям.</li><li>История attempts, latency/error metrics и tracing.</li><li>Используется OpenSlot как инфраструктурный слой интеграций.</li></ul></article>
+        <article class="case reveal delay-1"><div class="case-meta"><span>PulseBoard · observability</span><span>FastAPI / asyncio / PostgreSQL / Redis / Prometheus / Grafana</span></div><h3>Uptime monitoring и status pages</h3><p>Сервис мониторинга с concurrent HTTP checks, scheduler/workers, incident lifecycle, уведомлениями и публичными status pages.</p><ul><li>SSE/WebSocket live updates и uptime aggregation.</li><li>Retention, большие таблицы и performance profiling.</li><li>Мониторит OpenSlot и HookRelay для практики incident response.</li></ul></article>
+      </div>
+
+      <article class="case featured reveal">
+        <div class="case-meta"><span>РЖД · production</span><span>Python / FastAPI / Kafka / Redis / PostgreSQL</span></div>
+        <div class="case-grid">
+          <div><h3>СКУД: события прохода в реальном времени</h3><p>С нуля спроектировал и развивал корпоративную систему контроля доступа: жизненный цикл пропусков, уровни доступа, журналирование, REST API и интеграции с аппаратными считывателями и турникетами.</p><ul><li>Асинхронный FastAPI + Kafka для real-time событий и межсервисного обмена.</li><li>PostgreSQL-схема, оптимизация SQL и Redis-кэш для пиковых нагрузок.</li><li>Unit/integration-тесты, GitLab CI, Docker и deployment в Yandex Cloud.</li><li>Совместная проработка требований с аналитиками.</li></ul></div>
+          <div class="metric-stack"><div><strong>&lt;50 ms</strong><span>проверка пропуска</span></div><div><strong>+40%</strong><span>пропускная способность турникетов</span></div><div><strong>0</strong><span>заторы в часы пик после внедрения</span></div></div>
+        </div>
+      </article>
+
+      <div class="case-pair">
+        <article class="case reveal"><div class="case-meta"><span>Пневмостроймашина · production</span><span>C# / .NET Core / .NET MAUI / React / SQL</span></div><h3>Складской учёт через QR и штрихкоды</h3><p>Самостоятельно спроектировал клиент-серверное приложение: backend, мобильный UI, REST API, интеграцию с корпоративной БД и серверную валидацию отсканированных данных.</p><div class="mini-metric"><b>×3</b> быстрее идентификация и учёт единицы товара · ошибки ручного ввода снижены до нуля</div></article>
+        <article class="case reveal delay-1"><div class="case-meta"><span>ML / Computer Vision</span><span>Python / Keras / TensorFlow / PyTorch / OpenCV</span></div><h3>CV и embedded-прототипы</h3><p>Практические задачи компьютерного зрения: классификация птиц, распознавание автомобильных номеров и интеграция CV-логики с Raspberry Pi/OpenCV.</p><div class="mini-metric"><b>ML → action</b> модели и CV встроены в прикладной сценарий</div></article>
       </div>
 
       <article class="case fullstack-case reveal">
@@ -103,23 +124,60 @@
       </article>
     </section>
 
+    <section id="experience" class="section container">
+      <div class="section-head reveal"><div><p class="kicker">03 / EXPERIENCE</p><h2>Production-опыт и ответственность за результат</h2></div><p>Опыт включает корпоративные backend-системы, hardware-интеграции, fullstack-разработку и работу с требованиями от постановки до эксплуатации.</p></div>
+      <div class="experience-list">
+        <article class="experience-item reveal">
+          <div class="experience-time"><b>ОАО «РЖД»</b></div>
+          <div><h3>Инженер-программист</h3><p>Python / FastAPI / asyncio / SQLAlchemy / PostgreSQL / Redis / Kafka / Docker / GitLab CI / pytest / Linux / Yandex Cloud.</p><p>Проектирование и развитие корпоративной СКУД, integration layer для оборудования, производительность SQL и кэша, тестирование, CI/CD и эксплуатация.</p></div>
+        </article>
+        <article class="experience-item reveal delay-1">
+          <div class="experience-time"><b>АО «Пневмостроймашина»</b></div>
+          <div><h3>Инженер-программист</h3><p>C# / .NET Core / .NET MAUI / React / REST API / SQL.</p><p>Самостоятельная разработка клиент-серверной системы складского/производственного учёта с QR/штрихкодами и интеграцией с корпоративной БД.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section container">
+      <div class="section-head reveal"><div><p class="kicker">04 / ENGINEERING STACK</p><h2>Стек по задачам, а не по списку технологий</h2></div><p>Инструменты сгруппированы вокруг типовых инженерных задач: backend, data/concurrency, distributed systems, AI, testing, delivery и observability.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card reveal"><h3>Backend</h3><p>Python · FastAPI · Pydantic · asyncio · SQLAlchemy · Alembic · REST · WebSocket/SSE</p></article>
+        <article class="skill-card reveal delay-1"><h3>Data</h3><p>PostgreSQL · SQL · Redis · pgvector · индексы · транзакции/locking · EXPLAIN ANALYZE</p></article>
+        <article class="skill-card reveal"><h3>Frontend</h3><p>TypeScript · React · React Router · TanStack Query · React Hook Form · Zod</p></article>
+        <article class="skill-card reveal delay-1"><h3>Distributed</h3><p>Kafka · RabbitMQ · workers · retries/backoff · idempotency · DLQ · Transactional Outbox</p></article>
+        <article class="skill-card reveal"><h3>AI / LLM</h3><p>Structured Outputs · tool calling · embeddings/RAG · agents · MCP · evals</p></article>
+        <article class="skill-card reveal delay-1"><h3>Testing</h3><p>pytest · unit/integration/E2E · Vitest · React Testing Library · Playwright</p></article>
+        <article class="skill-card reveal"><h3>DevOps</h3><p>Docker/Compose · GitLab CI · GitHub Actions · Linux · Nginx · HTTPS/TLS</p></article>
+        <article class="skill-card reveal delay-1"><h3>Observability</h3><p>Sentry · Prometheus · Grafana · OpenTelemetry · structured logging · tracing</p></article>
+      </div>
+    </section>
+
     <section id="process" class="section container">
-      <div class="section-head reveal"><div><p class="kicker">03 / DELIVERY</p><h2>Как я веду задачу от ТЗ до релиза</h2></div><p>Такой цикл особенно подходит проектам, где один инженер отвечает не только за код, но и за системный анализ, дизайн решения и запуск.</p></div>
+      <div class="section-head reveal"><div><p class="kicker">05 / DELIVERY</p><h2>Как я веду задачу от требований до эксплуатации</h2></div><p>Backend-first fullstack: самостоятельное ведение feature через полный SDLC с вниманием к производительности, безопасности и понятным архитектурным trade-offs.</p></div>
       <div class="timeline reveal">
-        <div><b>01</b><h3>Discovery</h3><p>Пользователь, боль, сценарии, данные, ограничения, критерий успеха.</p></div>
-        <div><b>02</b><h3>System design</h3><p>Контракты API, модель данных, интеграции, отказоустойчивость, риски.</p></div>
-        <div><b>03</b><h3>Prototype</h3><p>Минимальный vertical slice, который можно показать реальному пользователю.</p></div>
-        <div><b>04</b><h3>Production</h3><p>Тесты, контейнеризация, CI/CD, мониторинг, документация, метрики.</p></div>
+        <div><b>01</b><h3>Discovery</h3><p>Пользователь, бизнес-процесс, данные, ограничения и критерии успеха.</p></div>
+        <div><b>02</b><h3>System design</h3><p>Модель данных, API, service boundaries, concurrency, интеграции и риски.</p></div>
+        <div><b>03</b><h3>Implementation</h3><p>Vertical slice: backend, UI, интеграции, тесты и измеримый сценарий.</p></div>
+        <div><b>04</b><h3>Production</h3><p>CI/CD, security, monitoring, tracing, performance и дальнейшая эксплуатация.</p></div>
+      </div>
+    </section>
+
+    <section class="section container education-section">
+      <div class="section-head reveal"><div><p class="kicker">06 / EDUCATION</p><h2>Образование и дополнительная квалификация</h2></div><p>Формальное образование дополняю прикладными направлениями в Python, нейронных сетях и системной разработке.</p></div>
+      <div class="education-grid">
+        <article class="education-card reveal"><span>2026 — 2028</span><h3>УрФУ им. Б.Н. Ельцина</h3><p>Специализированное высшее образование: «Современные проблемы компьютерных наук».</p></article>
+        <article class="education-card reveal delay-1"><span>2021 — 2025</span><h3>УрФУ им. Б.Н. Ельцина</h3><p>Бакалавриат: «Прикладная информатика».</p></article>
+        <article class="education-card reveal delay-2"><span>2023 — 2025</span><h3>Дополнительные квалификации</h3><p>«Нейронные сети» (2023–2024) · «Углублённый уровень Python» (2024–2025).</p></article>
       </div>
     </section>
 
     <section class="section container contact reveal">
-      <div><p class="kicker">LET'S BUILD</p><h2>Готов разбирать процессы и превращать их в рабочие инструменты.</h2></div>
-      <div class="contact-actions"><a class="button" href="mailto:artem.zverev.03@bk.ru">Написать мне</a><a class="button ghost" href="https://github.com/AmL3ar" target="_blank" rel="noreferrer">GitHub ↗</a></div>
+      <div><p class="kicker">CONTACT</p><h2>Готов обсуждать backend, fullstack и инженерные задачи с ответственностью за production.</h2><p class="contact-note">Екатеринбург, Россия · +7-952-148-05-79</p></div>
+      <div class="contact-actions"><a class="button" href="mailto:artem.zverev.03@bk.ru">Написать мне</a><a class="button ghost" href="https://github.com/AmL3ar" target="_blank" rel="noreferrer">GitHub ↗</a><a class="button ghost" href="assets/Artem_Zverev_Resume.pdf" target="_blank" rel="noreferrer">Резюме ↗</a></div>
     </section>
   </main>
 
-  <footer class="container footer"><span>Артем Зверев · Екатеринбург</span><span>Fullstack / Python / AI Automation</span></footer>
+  <footer class="container footer"><span>Артем Зверев · Екатеринбург</span><span>Python Fullstack Developer · Middle</span></footer>
   <script src="script.js"></script>
 </body>
 </html>
